@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comfortaa:wght@300&family=Karla:wght@300&family=PT+Serif&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comfortaa:wght@300&family=Karla:wght@300&family=PT+Serif&family=Titillium+Web:wght@200&family=Ubuntu:ital,wght@0,300;1,300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comfortaa:wght@300&family=Karla:wght@300&family=PT+Serif&family=Titillium+Web:wght@200&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+.cards_main{
+    margin:20px;
+    font-family: 'Bree Serif', serif;
+}
+.cards_title{
+    text-align: center;
+    margin:7rem;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cards_component{
+    width:100%;
+}
+.cards_element{
+    width:360px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height:265px;
+    font-size: 1.1rem;
+    border:none ;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 20px;
+    
+}
+
+.cards_element h4{
+    font-size: 20px;
+    margin:10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.cards_element p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    color:rgb(0,0,0,0.5);
+}
+.cards_element:hover{
+    transform: scale(1);
+    box-shadow: 0 0 35px -2px rgb(68 160 216 / 50%);
+    border-radius:2px;
+   
+}
+.cards_icon{
+    margin:10px;
+    height:60px;
+    width:60px;
+    color: rgb(68, 160, 216,0.8);
+}
+.cards_change{
+    margin-top: -60px;
+    padding-right:135px;
+    padding-left: 135px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
